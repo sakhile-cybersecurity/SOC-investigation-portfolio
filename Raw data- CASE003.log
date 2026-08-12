@@ -1,0 +1,28 @@
+2024-06-15 00:00:01 SYSTEM host=FINCORE-WS04 status=ONLINE
+2024-06-15 00:03:11 DNS_QUERY host=FINCORE-WS04 query=updates.microsofft.com
+2024-06-15 00:03:45 DNS_QUERY host=FINCORE-WS04 query=updates.microsofft.com
+2024-06-15 00:04:19 DNS_QUERY host=FINCORE-WS04 query=updates.microsofft.com
+2024-06-15 00:04:53 DNS_QUERY host=FINCORE-WS04 query=updates.microsofft.com
+2024-06-15 00:05:27 DNS_QUERY host=FINCORE-WS04 query=updates.microsofft.com
+2024-06-15 00:06:01 DNS_QUERY host=FINCORE-WS04 query=updates.microsofft.com
+2024-06-15 00:14:22 FAILED_LOGIN user=mthembu src_ip=41.185.28.93 status=FAILED
+2024-06-15 00:14:25 FAILED_LOGIN user=mthembu src_ip=41.185.28.93 status=FAILED
+2024-06-15 00:14:28 FAILED_LOGIN user=mthembu src_ip=41.185.28.93 status=FAILED
+2024-06-15 00:14:31 FAILED_LOGIN user=mthembu src_ip=41.185.28.93 status=FAILED
+2024-06-15 00:14:34 FAILED_LOGIN user=mthembu src_ip=41.185.28.93 status=FAILED
+2024-06-15 00:14:37 SUCCESS_LOGIN user=mthembu src_ip=41.185.28.93 status=SUCCESS
+2024-06-15 00:15:03 FILE_ACCESS user=mthembu file=C:\FinanceCore\clients\accounts_2024.xlsx
+2024-06-15 00:15:44 FILE_ACCESS user=mthembu file=C:\FinanceCore\clients\transactions_q2.xlsx
+2024-06-15 00:16:02 FILE_ACCESS user=mthembu file=C:\FinanceCore\internal\staff_salaries.xlsx
+2024-06-15 00:16:55 ARCHIVE_CREATED user=mthembu file=C:\temp\data_backup.zip size=128MB
+2024-06-15 00:17:33 ANTIVIRUS_DISABLED user=mthembu host=FINCORE-WS04
+2024-06-15 00:18:01 OUTBOUND_CONNECTION host=FINCORE-WS04 dst_ip=196.203.44.81 port=443 size=128MB
+2024-06-15 00:19:22 NEW_USER_CREATED user=svc_update01 created_by=mthembu privileges=ADMIN
+2024-06-15 00:21:05 SCHEDULED_TASK_CREATED task=WindowsUpdateHelper created_by=mthembu exec=C:\temp\update.exe
+2024-06-15 00:22:44 SUCCESS_LOGIN user=svc_update01 src_ip=196.203.44.81 status=SUCCESS
+2024-06-15 00:23:10 OUTBOUND_CONNECTION host=FINCORE-WS04 dst_ip=196.203.44.81 port=4444 size=2MB
+2024-06-15 00:24:01 REGISTRY_MODIFIED key=HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run value=WindowsUpdateHelper
+2024-06-15 00:31:17 SUCCESS_LOGIN user=svc_update01 src_ip=196.203.44.81 status=SUCCESS
+2024-06-15 00:31:44 FILE_ACCESS user=svc_update01 file=C:\FinanceCore\internal\network_diagram.pdf
+2024-06-15 00:32:09 FILE_ACCESS user=svc_update01 file=C:\FinanceCore\internal\admin_credentials.txt
+2024-06-15 00:33:55 OUTBOUND_CONNECTION host=FINCORE-WS04 dst_ip=196.203.44.81 port=4444 size=45MB
